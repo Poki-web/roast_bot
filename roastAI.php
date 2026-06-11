@@ -1,7 +1,7 @@
 <?php
 // API Keys တွေကို Code ထဲမှာ တိုက်ရိုက်မရေးတော့ဘဲ Environment Variables ထဲကနေ လှမ်းဖတ်မယ်
 $botToken = getenv('TELEGRAM_BOT_TOKEN');
-$geminiApiKey = getenv(' ');
+$geminiApiKey = getenv('GEMINI_API_KEY');
 
 // Telegram ဆီကလာတဲ့ Message (Webhook Data) ကို ဖတ်မယ်
 $content = file_get_contents("php://input");
